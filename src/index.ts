@@ -28,7 +28,7 @@ server.listen(8080, () => {
 })
 
 mongoose.Promise = Promise;
-const MONGODB_URI = "mongodb+srv://hemanthkumar:gemanth123@cluster0.bjacwk3.mongodb.net";
+const MONGODB_URI = 
 mongoose.connect(MONGODB_URI);
 
 mongoose.connection.on("error", (error: Error) => console.log(error));
